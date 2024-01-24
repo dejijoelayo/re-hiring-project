@@ -1,3 +1,30 @@
+# Technologies:
+Terraform
+Github Actions
+Docker
+Node.js
+AWS EC2
+AWS S3
+AWS ECR
+
+# Steps to complete the Tasks:
+. Get access id, secret id from AWS
+. Develop a simple nodejs app
+. Write Dockerfile for Hello World Application
+. Generate SSH keys for connecting to EC2 instance
+. Create a S3 bucket for storing Terraform State file
+. Write Terraform Scripts for provisioning EC2 instance
+. Write Github Actions workflow: Set environment variables
+. Setup backend for S3 bucket with terraform init
+. Pass tf variables with Terraform plan
+. Run terraform apply
+. Set EC2 instance public ip as job output
+. Authenticate ECR
+. Set ec2 public ip as environment variable for later use
+. Build, tag and push docker image to Amazon ECR
+. Connect to EC2 using ssh and deploy docker container
+
+
 # Cox Automotive / Manheim Release Engineering Hiring Project
 Manheim's Release Engineering team develops tools, libraries, documentation, and processes to allow seventy development teams to do their jobs faster and more efficiently, reliably, and securely. Each of the teams is autonomous and has full control over the choice of languages and tools that they use. When they choose ours, it's because we provided the most compelling solution. When we do our jobs well, our products are also adopted by some of the hundreds of Cox Automotive development teams outside of the Manheim business unit.
 
