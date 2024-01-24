@@ -2,9 +2,9 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Service is up and running");
+  res.send("Hello World");
 });
 
 app.listen(8080, () => {
-  console.log("Hello World");
+  console.log("Server is up");
 });
